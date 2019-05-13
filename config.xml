@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>harrybian</name>
+    <description>
+        HarryBian's app.
+    </description>
+	    <author email="me@HarryBian.com" href="http://HarryBian.com">
+        HarryBian
+    </author>
+    <content src="index.html" />
+	<icon src="icon.png" />
+	    <plugin name="cordova-plugin-inappbrowser" />
+		    <access origin="*"/>
+ <plugin name="cordova-plugin-whitelist" version="1" />
+    <allow-intent href="http://*/*" />
+</widget>
